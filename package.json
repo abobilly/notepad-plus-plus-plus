@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "gemini": "gemini",
+    "scrape:svgrepo": "node scripts/svgrepo-scrape.js --out svgrepo-icons"
+  },
+  "dependencies": {
+    "devenv": "^1.0.1",
+    "msbuild": "^1.2.0"
+  },
+  "devDependencies": {
+    "@google/gemini-cli": "^0.34.0",
+    "cheerio": "^1.2.0",
+    "p-limit": "^7.3.0"
+  }
+}

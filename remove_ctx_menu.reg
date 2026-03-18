@@ -1,0 +1,29 @@
+Windows Registry Editor Version 5.00
+
+; ============================================================
+; REMOVE CONTEXT MENU ENTRIES
+; Run this file to remove unwanted right-click context menu items
+; Keep a backup before running: use export_backup.reg first
+; ============================================================
+
+; --- TreeSize Free: "Scan with TreeSize Free" ---
+[-HKEY_CLASSES_ROOT\Folder\shell\TreeSize Free]
+
+; --- Git: "Open Git GUI here" and "Open Git Bash here" ---
+[-HKEY_CLASSES_ROOT\Directory\shell\git_gui]
+[-HKEY_CLASSES_ROOT\Directory\shell\git_shell]
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\git_gui]
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\git_shell]
+
+; --- VLC: "Add to VLC media player's Playlist" and "Play with VLC media player" ---
+[-HKEY_CLASSES_ROOT\Directory\shell\AddToPlaylistVLC]
+[-HKEY_CLASSES_ROOT\Directory\shell\PlayWithVLC]
+
+; --- Dropbox: "Transfer a copy..." and "Dropbox" submenu ---
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\DropboxExt]
+[-HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\DropboxExt]
+[-HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\DropboxExt]
+
+; --- PowerRename (PowerToys): "Rename with PowerRename" ---
+[-HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\PowerRenameExt]
+[-HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\PowerRenameExt]

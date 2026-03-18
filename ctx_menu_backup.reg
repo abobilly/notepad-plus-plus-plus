@@ -1,0 +1,93 @@
+Windows Registry Editor Version 5.00 
+ 
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Folder\shell\TreeSize Free]
+@="Scan with TreeSize Free"
+"AppliesTo"="System.ParsingName:<>\"::{645FF040-5081-101B-9F08-00AA002F954E}\" AND System.ParsingName:<>\"::{679f85cb-0220-4080-b29b-5540cc05aab6}\" AND System.ParsingPath:~!\"::{26EE0668-A00A-44D7-9371-BEB064C98683}\" AND System.IsFolder:=System.StructuredQueryType.Boolean#True"
+"Icon"="C:\\Program Files\\JAM Software\\TreeSize Free\\TreeSizeFree.exe,0"
+
+[HKEY_CLASSES_ROOT\Folder\shell\TreeSize Free\command]
+@="\"C:\\Program Files\\JAM Software\\TreeSize Free\\TreeSizeFree.exe\" \"%1\""
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\git_gui]
+@="Open Git &GUI here"
+"Icon"="C:\\Program Files\\Git\\cmd\\git-gui.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\git_gui\command]
+@="\"C:\\Program Files\\Git\\cmd\\git-gui.exe\" \"--working-dir\" \"%1\""
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\git_shell]
+@="Open Git Ba&sh here"
+"Icon"="C:\\Program Files\\Git\\git-bash.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\git_shell\command]
+@="\"C:\\Program Files\\Git\\git-bash.exe\" \"--cd=%1\""
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\git_gui]
+@="Open Git &GUI here"
+"Icon"="C:\\Program Files\\Git\\cmd\\git-gui.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\git_gui\command]
+@="\"C:\\Program Files\\Git\\cmd\\git-gui.exe\" \"--working-dir\" \"%v.\""
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\git_shell]
+@="Open Git Ba&sh here"
+"Icon"="C:\\Program Files\\Git\\git-bash.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\git_shell\command]
+@="\"C:\\Program Files\\Git\\git-bash.exe\" \"--cd=%v.\""
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\AddToPlaylistVLC]
+@="Add to VLC media player's Playlist"
+"Icon"="\"C:\\Program Files\\VideoLAN\\VLC\\vlc.exe\",0"
+"MultiSelectModel"="Player"
+
+[HKEY_CLASSES_ROOT\Directory\shell\AddToPlaylistVLC\command]
+@="\"C:\\Program Files\\VideoLAN\\VLC\\vlc.exe\" --started-from-file --playlist-enqueue \"%1\""
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\PlayWithVLC]
+@="Play with VLC media player"
+"Icon"="\"C:\\Program Files\\VideoLAN\\VLC\\vlc.exe\",0"
+"MultiSelectModel"="Player"
+
+[HKEY_CLASSES_ROOT\Directory\shell\PlayWithVLC\command]
+@="\"C:\\Program Files\\VideoLAN\\VLC\\vlc.exe\" --started-from-file --no-playlist-enqueue \"%1\""
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\DropboxExt]
+@="{ECD97DE5-3C8F-4ACB-AEEE-CCAB78F7711C}"
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\DropboxExt]
+@="{ECD97DE5-3C8F-4ACB-AEEE-CCAB78F7711C}"
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\DropboxExt]
+@="{ECD97DE5-3C8F-4ACB-AEEE-CCAB78F7711C}"
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\PowerRenameExt]
+@="{0440049F-D1DC-4E46-B27B-98393D79486B}"
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\PowerRenameExt]
+@="{0440049F-D1DC-4E46-B27B-98393D79486B}"
+

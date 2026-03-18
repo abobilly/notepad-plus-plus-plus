@@ -1,0 +1,5 @@
+node_modules/
+*.log
+*.tmp
+thumbs.db
+notepad-plus-plus/.git*
